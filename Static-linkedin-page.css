@@ -1,0 +1,312 @@
+*
+{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: grey;
+}
+
+nav
+{
+display: flex;
+justify-content: space-between;
+align-items: center;
+    border: 1px solid red;
+height: 55px;
+}
+
+
+
+
+nav > .left-icon-cont
+{
+
+    display: flex;
+    margin-left: 148px;
+ margin-top: 10px;
+    /* padding: 10px; */
+margin-left: 170px;
+    }
+
+
+li > .center-icon-cont
+{
+
+}
+
+nav > .right-icon-cont
+{
+ display: flex;
+    padding-right:340px;
+height: 40px;
+/* width: 40px; */
+}
+nav > .right-icon-cont > .work > img 
+{
+ border-left: 1px solid black;
+}
+
+nav > .right-icon-cont > a > img:hover
+{
+opacity: 50%;
+}
+
+
+
+
+
+.page
+{
+
+display: flex;
+/* grid-template-columns: repeat(3,800px); */
+
+/* margin-top: ; */
+}
+,.rightsidebar
+{
+    border: 4px solid red;
+/* grid-column: 1/3; */
+margin-top: 100px;
+
+}
+
+
+.center
+{
+    /* display: grid; */
+    /* grid-column: 1/3; */
+    /* display: flex; */
+/* flex-direction: column; */
+}
+
+
+
+
+/* sidebar starts over here */
+
+.sidebar
+{
+    /* grid-column: 2/1; */
+    /* grid-column: 2/1; */
+    display: flex;
+    width: 230px;
+    height: 700px;
+    margin-top: 25px;
+    margin-left: 180px;
+    border: 2px solid gray;
+/* background-color: orange; */
+/* box-sizing: border-box; */
+border-top-left-radius: 12px;
+flex-direction: column;
+border-top-right-radius: 12px;
+
+border-bottom-left-radius: 12px;
+
+border-bottom-right-radius: 12px;
+}
+
+.sidebar > .upper-part
+{
+    height: 60px;
+    width: 227px;
+border: 1px solid yellow;
+background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 20%, rgba(253,29,29,1) 72%, rgba(156,252,69,1) 100%);border: 2px solid gray;
+border-top-left-radius: 12px;
+
+border-top-right-radius: 12px;
+
+
+}
+
+.sidebar > .upper-part2
+{
+    margin-top: 4s0px;
+        height: 80px;
+        width: 227px;
+    border: 1px solid yellow;
+    background-color: wheat;
+    border-top-right-radius: 12px;
+    
+    
+    }
+    .sidebar >  .profile-circle {   
+        position: absolute;
+        left: 259px;
+        top: 123px;
+        border: 1px double white;
+        border-radius: 70px;
+        height: 70px;
+        width: 74px;
+        border: 2px double white;
+        /* padding-right: 100px; */
+        background-color:white;
+        
+            
+    }
+   
+    .sidebar > .connection
+    {
+        /* margin-top: 100px; */
+        position: absolute;
+        /* justify-content: space-between; */
+        margin-top: 150px;
+    }
+
+    .sidebar > .right-upper-part3
+    {
+        /* position: absolute; */
+        margin-top: 15px;
+        /* margin-bottom: 3px; */
+        border-bottom: 2px solid grey;
+
+    }
+
+    
+    .sidebar > .left-upper-part3
+    {
+        /* position: absolute; */
+        margin-top: 15px;
+        
+    }
+.sidebar >.premiumad
+{
+
+margin-left: 5px;
+padding-bottom: 5px;
+border-bottom: 2px solid grey;
+
+}
+
+
+
+.sidebar >.myitems
+{
+
+margin-left: 5px;
+padding-bottom: 5px;
+border-bottom: 2px solid grey;
+align-content: center;
+padding: 5px;
+
+border-bottom: 2px solid grey;
+border-radius: 12px;
+}
+.sidebar >.tensorflow
+{
+margin-top: 5px;
+s
+}
+
+
+
+
+
+
+
+/* center starts over here */
+
+
+
+
+
+
+.center >.postbar
+ {
+    /* display: grid;     */
+    /* position: absolute; */
+margin-top: 30px;
+
+margin-left: 20px;
+width: 505px;
+height: 100px;
+border: 1px solid gray;
+border-radius: 9px;
+
+}
+.post-cont-1
+{
+    display: flex;
+margin-top: 40px;
+margin-left :20px;
+background-color: white;
+border: 2px solid rgb(117, 116, 116);
+
+height: 480px;
+width: 505px;
+
+
+}
+
+.post-cont-2
+{
+    display: flex;
+    /* position: absolute; */
+
+/* border: 2px solid grey; */
+height: 480px;
+width: 595px;
+
+
+
+}
+
+.postacc
+{
+    position: absolute;
+    margin-left: 76px;
+    margin-top: 10px;"
+
+
+
+}
+.imagepost
+{
+    margin-top: 100px;
+    position: absolute;
+
+}
+
+.clap
+{display: flex;
+
+    position:absolute;
+    margin-top: 400px;
+    border-bottom: 1px solid grey;
+   /* border-width: 1000px; */
+   /* border-height:1000px;     */
+}
+.reaction
+{
+    display: flex;
+position: absolute;
+margin-top: 445px;
+    
+margin-left: 20px;
+}
+.comment
+{
+    display: flex;
+    margin-top: 1px;
+    margin-left: 30px;
+    /* border-top: 1px solid red; */
+    /* border-left-width: 10000px; */
+}
+
+
+.border
+{
+    display: flex;
+    position: absolute;
+    border: 1px solid yellow;
+
+    /* unused class */
+    
+}
+
+
+
+
